@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Heroes Games Of Thrones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fab_information">FAB information</string>
+    <string name="title_dialog_error">Something went wrong</string>
+    <string name="menu_update">Update</string>
+
+    <string name="share_image">share_image_%1$s</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_image_size">150dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="padding_normal">12dp</dimen>
+    <dimen name="elevation_size">8dp</dimen>
+
+    <dimen name="progress_indicator_margin">48dp</dimen>
+    <dimen name="progress_indicator_thickness">12dp</dimen>
+    <dimen name="progress_indicator_corner_radius">4dp</dimen>
+
+    <dimen name="corner_size">12dp</dimen>
+    <dimen name="card_view_corner_size">32dp</dimen>
+    <dimen name="card_view_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.HGofHt.CardView" parent="Widget.MaterialComponents.CardView">
+       <!-- <item name="cardBackgroundColor">@color/blue_grey_700</item>-->
+
+        <item name="android:textColor">@color/white</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.HGofHt.CardView</item>
+    </style>
+
+    <style name="ThemeOverlay.HGofHt.CardView" parent="">
+        <item name="colorSurface">@color/blue_grey_700</item>
+    </style>
+
+    <style name="TextAppearance.HGofHt.SubTitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

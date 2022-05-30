@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_heroes"
+    app:startDestination="@id/heroesListFragment">
+
+    <fragment
+        android:id="@+id/heroesListFragment"
+        android:name="com.tbondarenko.heroesgamesofthrones.ui.listfragment.HeroesListFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/heroes_list_fragment" >
+        <action
+            android:id="@+id/action_heroesListFragment_to_heroDetailFragment"
+            app:destination="@id/heroDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/heroDetailFragment"
+        android:name="com.tbondarenko.heroesgamesofthrones.ui.deteilfragment.HeroDetailFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/hero_detail_fragment" >
+        <argument
+            android:name="full_name"
+            app:argType="string"
+            android:defaultValue="Full Name" />
+        <argument
+            android:name="family"
+            app:argType="string"
+            android:defaultValue="Family" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Title" />
+        <argument android:name="image_url"
+            app:argType="string" />
+    </fragment>
+</navigation>
